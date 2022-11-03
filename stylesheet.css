@@ -1,0 +1,525 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.header {
+  width: 1440px;
+  height: 58px;
+  background-color: black;
+  display: flex;
+  align-items: center;
+  position: fixed;
+  z-index: 100;
+}
+.header1 {
+  width: 360px;
+  background-color: black;
+}
+
+.logo {
+  width: 50px;
+  height: 50px;
+  margin-left: 100px;
+  color: white;
+  border-right: 0.5px s;
+}
+
+.Home-text {
+  color: white;
+  font-size: larger;
+  margin-left: 20px;
+  margin-bottom: 3px;
+  font-style: bold;
+  display: inline-block;
+  padding-top: 5px;
+}
+
+.search-box {
+  height: 45px;
+  width: 350px;
+  background-color: rgb(44, 39, 39);
+  margin-left: 565px;
+  border-radius: 25px;
+  
+}
+
+.search-logo {
+  height: 20px;
+  width: 20px;
+  padding-left: 20px;
+  padding-top: 10px;
+  
+}
+
+.search-para {
+  font-size: 15px;
+  color: gray;
+  display: inline-block;
+  padding-left: 20px;
+  background-color: rgb(44, 39, 39);
+  width: 270px;
+  height: 30px;
+  border: none;
+  outline: none;
+}
+
+.left-side {
+  height: 900px;
+  width: 362px;
+  background: black;
+  float: left;
+  position: fixed;
+  top: 58px;
+  border-right: 0.5px solid rgb(82, 73, 73);
+}
+.left-Icons {
+  margin-left: 110px;
+}
+
+.left-Icons {
+  height: 25px;
+  width: 25px;
+  padding-top: 20px;
+}
+
+.left-para {
+  color: white;
+  font-size: 20px;
+  padding-top: 30px;
+  margin-left: 20px;
+  text-decoration: none;
+}
+
+
+.TweetBtn {
+  margin-top: 30px;
+  margin-left: 100px;
+  margin-bottom: 40px;
+  height: 50px;
+  width: 220px;
+  border-radius: 25px;
+  background: #1da1f2;
+  font-size: 18px;
+  font-weight: bold;
+  color: white;
+  border: 0ch;
+}
+.downProfile {
+  height: 60px;
+  margin-top: 130px;
+  margin-left: 90px;
+  width: 250px;
+  border-radius: 30px;
+  background-color: rgb(0, 0, 0);
+  display: flex;
+  
+}
+.downProfile:hover{
+ background-color: rgb(20, 17, 17);
+}
+.left-downside-pic{ 
+  width: 40px;
+  height: 40px;
+  border-radius: 40px;
+  margin-left: 10px;
+  margin-top: 10px;
+  margin-right: 10px;
+ 
+}
+.left-downside-name{
+  color: white;
+  margin-top: 10px;
+  font-size: 16px;
+  font-weight: bold;
+}
+.username-down{
+  margin-top: 2px;
+  flex-direction: column;
+  color: gray;
+  font-size: 13px;
+}
+.left-threedot{
+  height: 20px;
+  width: 20px;
+
+  margin-left: 90px;
+  margin-top: 15px;
+}
+
+.mid-side {
+  height: 1000px;
+  width: 600px;
+  margin-top: 58px;
+  padding-left: 359px;
+  background-color: rgb(54, 41, 41);
+  float: left;
+  border-right: 0.5px solid rgb(82, 73, 73);
+}
+
+.midProfile {
+  height: 140px;
+  width: 600px;
+  background-color: black;
+  border-bottom: 0.5px solid rgb(82, 73, 73);
+}
+
+.midProfilePic {
+  height: 50px;
+  width: 50px;
+  border-radius: 30px;
+  margin-left: 8px;
+  float: left;
+}
+
+.mainComment {
+  margin-top: 15px;
+  margin-left: 30px;
+  padding-right: 260px;
+  padding-bottom: 35px;
+  font-size: 20px;
+  color: grey;
+  background-color: black;
+}
+.midPic {
+  height: 1px;
+  width: 1px;
+  display: inline;
+  margin-left: 90px;
+}
+.inlineIcon {
+  height: 20px;
+  width: 20px;
+  margin: 5px;
+  margin-top: 10px;
+}
+.tweetBtn {
+  margin-bottom: 50px;
+}
+.TweetBtn1 {
+  height: 35px;
+  width: 80px;
+  margin-left: 170px;
+  border-radius: 30px;
+  background: #1470a9;
+  text-decoration: none;
+  font-size: 18px;
+  font-weight: bold;
+  color: rgb(167, 158, 158);
+  border: 0ch;
+}
+
+.Tweet2 {
+  border-bottom: 0.5px solid rgb(82, 73, 73);
+}
+
+.showTweet {
+  height: 50px;
+  width: 600px;
+  background-color: black;
+  border-bottom: 0.5px solid rgb(82, 73, 73);
+  text-align: center;
+}
+
+.Tweet1 {
+  height: 90px;
+  padding-top: 10px;
+  width: 600px;
+  background-color: black;
+  border-bottom: 0.5px solid rgb(82, 73, 73);
+}
+
+.nameOfTweet {
+  margin-left: 50px;
+  color: white;
+  margin-bottom: 5px;
+}
+
+.tweetcont {
+  font-size: 15px;
+  color: white;
+  margin-bottom: 20px;
+}
+
+.tweetcont1 {
+  font-size: 15px;
+  color: white;
+  margin-bottom: 20px;
+  align-items: center;
+  margin-bottom: 40px;
+}
+
+.Fpara {
+  margin-bottom: 30px;
+}
+
+.Spara {
+  margin-left: 90px;
+}
+
+.contPic {
+  height: 280px;
+  width: 500px;
+  background-color: green;
+  border-radius: 10px;
+  margin-left: 90px;
+}
+
+.contPic1 {
+  height: 280px;
+  width: 500px;
+  background-color: green;
+  border-radius: 10px;
+}
+
+.chatIcon {
+  height: 15px;
+  width: 15px;
+  margin-left: 80px;
+  margin-right: 10px;
+  float: left;
+}
+
+.TweetIcon {
+  display: flex;
+  margin-left: 10px;
+}
+
+.TweetIcon1 {
+  display: flex;
+  padding-top: 20px;
+  margin-left: 10px;
+}
+
+.Rarrow {
+  height: 20px;
+  width: 20px;
+  margin-left: 80px;
+  margin-right: 12px;
+  float: left;
+}
+
+.noComment {
+  color: grey;
+  font-size: 12px;
+  float: left;
+  margin-top: 2px;
+}
+
+.Lovelike {
+  height: 20px;
+  width: 20px;
+  margin-left: 110px;
+  padding-bottom: 10px;
+  margin-right: 12px;
+  float: left;
+}
+
+.uploadarrow {
+  height: 20px;
+  width: 20px;
+  margin-left: 110px;
+  padding-bottom: 10px;
+}
+
+.midProfilePic1 {
+  height: 50px;
+  width: 50px;
+  border-radius: 30px;
+  margin-left: 10px;
+  float: left;
+
+  margin-right: 25px;
+}
+
+.midProfilePic2 {
+  height: 50px;
+  width: 50px;
+  border-radius: 30px;
+  margin-left: 10px;
+  float: left;
+  margin-right: 25px;
+  margin-top: 8px;
+}
+
+.midProfilePic3 {
+  height: 50px;
+  width: 50px;
+  border-radius: 30px;
+  margin-left: 10px;
+  float: left;
+  margin-right: 25px;
+  margin-top: 8px;
+}
+
+.profile1 {
+  margin-top: 25px;
+  margin-bottom: 25px;
+}
+
+.secondTweet {
+  padding-top: 10px;
+  height: 110px;
+  width: 600px;
+  background-color: black;
+}
+
+.ThirdTweet {
+  padding-top: 10px;
+  height: 520px;
+  width: 600px;
+  background-color: black;
+}
+
+.forthTweet {
+  height: 57px;
+  width: 100%;
+  background-color: black;
+}
+.retry {
+  color: #1470a9;
+  padding-left: 300px;
+  padding-top: 20px;
+}
+
+.span1 {
+  margin-left: 100px;
+  padding-bottom: 20px;
+  font-size: 15px;
+  color: gray;
+  font-weight: lighter;
+}
+
+.pic {
+  height: 50px;
+  width: 50px;
+  border-radius: 30px;
+  float: left;
+  margin-right: 10px;
+}
+
+.proName {
+  color: white;
+  font-size: px;
+  padding-top: 8px;
+  float: left;
+}
+
+.username {
+  color: gray;
+  font-size: 16px;
+}
+
+.right-side {
+  height: 1000px;
+  width: 480px;
+  margin-top: 58px;
+  background-color: black;
+  float: left;
+}
+
+.profileBtn {
+  height: 35px;
+  width: 80px;
+  background-color: white;
+  text-decoration: none;
+  font-size: 15px;
+  border-radius: 15px;
+  font-weight: bold;
+  margin-left: 60px;
+  margin-top: 10px;
+  border: 0ch;
+}
+
+.rtColumn1 {
+  height: 520px;
+  width: 300px;
+  background: rgb(28, 25, 25);
+  margin-left: 47px;
+  margin-top: 10px;
+  border-radius: 12px;
+  padding: 15px;
+  top: 158px;
+}
+.treading1 {
+  height: 80px;
+  width: 240px;
+  background-color: rgb(28, 25, 25);
+  margin-top: 20px;
+  float: left;
+}
+.treading2 {
+  height: 60px;
+  width: 240px;
+  background-color: rgb(28, 25, 25);
+  margin-top: 20px;
+  float: left;
+}
+.trendingPic {
+  height: 60px;
+  width: 60px;
+  border-radius: 10px;
+  float: left;
+  margin-top: 12px;
+}
+
+.trendingdot {
+  height: 20px;
+  width: 20px;
+  float: left;
+  margin: 20px 20px;
+}
+.treadingmore {
+  height: 20px;
+  width: 80px;
+  background-color: rgb(28, 25, 25);
+  margin-top: 20px;
+  float: left;
+}
+.field {
+  font-size: 12px;
+  color: grey;
+  padding-bottom: 10px;
+}
+
+.blue {
+  color: #1470a9;
+}
+.topic {
+  font-size: 15px;
+  color: white;
+  padding-bottom: 10px;
+}
+.rtColumn2 {
+  height: 280px;
+  width: 300px;
+  background: rgb(28, 25, 25);
+  margin-left: 42px;
+  margin-top: 10px;
+  border-radius: 12px;
+  padding: 15px;
+  margin-bottom: 20px;
+}
+
+.more {
+  color: #1da1f2;
+  text-decoration: none;
+  font-size: 15px;
+}
+
+.mainterm {
+  margin-left: 50px;
+}
+
+.term1 a {
+  color: grey;
+  text-decoration: none;
+  font-size: 13px;
+  margin: 8px;
+}
+
+.rightText {
+  font-size: 20px;
+  color: white;
+}
